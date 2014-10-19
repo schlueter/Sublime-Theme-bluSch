@@ -95,7 +95,7 @@
 
         // Tab border
         "layer1.tint": [34, 34, 34],
-        "layer1.inner_margin": [0, 0, 0, 1],
+        "layer1.inner_margin": [0, 0, 0, 2],
         "layer1.opacity": 1.0,
         "layer1.draw_center": false,
 
@@ -111,7 +111,6 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.tint": [34, 34, 34],
-        "layer1.tint": [60, 60, 255]
     },
     {
         // Hover tab state
@@ -194,7 +193,7 @@
         // Tab close press action
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.tint": [119, 255, 255, 255]
+        "layer0.tint": [60, 60, 255, 255]
     },
     {
         // Tab close press action
@@ -454,11 +453,12 @@
         // Sidebar tree/background
         // TODO: Reduce row padding without moving headers?
         "class": "sidebar_tree",
-        "layer0.opacity": 1,
         "layer0.tint": [25, 25, 25],
         "layer0.inner_margin": [0, 0, 1, 0],
+        "layer0.opacity": 1.0,
         "layer1.tint": [34, 34, 34],
         "layer1.inner_margin": [0, 0, 1, 0],
+        "layer1.opacity": 1.0,
         "layer1.draw_center": false,
         "row_padding": [8, 1],
         "indent": 12,
@@ -471,13 +471,14 @@
         "class": "tree_row",
 
         // Background
-        "layer0.opacity": 1,
+        "layer0.opacity": 1.0,
         "layer0.tint": [25, 25, 25],
 
         // Border
-        "layer1.inner_margin": [0, 0, 1, 0],
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin": [0, 0, 2, 0],
         "layer1.draw_center": false,
-        "layer1.tint": [34, 34, 34]
+        "layer1.tint": [25, 25, 25],
         /*
         // BUG: (KNOWN)
             If the sidebar's width is less than the longest tree_row, then the blue
@@ -488,7 +489,6 @@
         // Sidebar row selected
         "class": "tree_row",
         "attributes": ["selected"],
-        "layer0.opacity": 1,
         "layer0.tint": [34, 34, 34],
         "layer1.tint": [43, 43, 43],
     },
@@ -497,21 +497,20 @@
         // TODO: Don't apply this to sidebar_heading?
         "class": "tree_row",
         "attributes": ["hover"],
-        "layer0.opacity": 1,
         "layer0.tint": [43, 43, 43],
-        "layer1.tint": [60, 60, 255]
+        "layer1.tint": [43, 200, 43]
     },
     {
         // Sidebar row dirty
         "class": "tree_row",
         "attributes": ["dirty"],
-        "layer1.tint": [255, 119, 68]
+        "layer1.tint": [180, 20, 54]
     },
     {
         // Sidebar row selected dirty
         "class": "tree_row",
         "attributes": ["selected", "dirty"],
-        "layer0.tint": [43, 43, 43]
+        "layer1.tint": [180, 20, 54]
     },
     {
         // Sidebar label
@@ -522,7 +521,7 @@
     {
         // Sidebar heading
         "class": "sidebar_heading",
-        "color": [119, 255, 255],
+        "color": [60, 60, 255],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1],
         "font.size": 10
@@ -598,12 +597,6 @@
         "layer0.opacity": 1
     },
 
-    // Disable old sidebar icons
-    {
-        "class": "disclosure_button_control",
-        "content_margin": [0],
-        "layer0.opacity": 0,
-    },
     // Sidebar FOLDERS closed
     {
         "class": "disclosure_button_control",
@@ -811,25 +804,25 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.tint": [34, 34, 34],
-        "layer1.tint": [119, 255, 255]
+        "layer1.tint": [60, 60, 255]
     },
     {
         // Quick panel row label
         "class": "quick_panel_label",
         "fg": [200, 200, 200, 255],
-        "match_fg": [119, 255, 255, 255],
+        "match_fg": [60, 60, 255, 255],
         "bg": [34, 34, 34, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [119, 255, 255, 255],
+        "selected_match_fg": [60, 60, 255, 255],
         "selected_bg": [134, 134, 134, 255]
     },
     {
         // Quick panel row path label
         "class": "quick_panel_path_label",
         "fg": [160, 160, 160, 255],
-        "match_fg": [119, 255, 255, 255],
+        "match_fg": [60, 60, 255, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [119, 255, 255, 255],
+        "selected_match_fg": [60, 60, 255, 255],
         "bg": [41, 41, 41, 255],
         "selected_bg": [24, 24, 255, 255]
     },
@@ -858,7 +851,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.tint": [34, 34, 34],
-        "layer1.tint": [119, 255, 255]
+        "layer1.tint": [60, 60, 255]
     },
 
     // #######################################################
@@ -885,11 +878,11 @@
     {
         "class": "auto_complete_label",
         "fg": [200, 200, 200],
-        "match_fg": [119, 255, 255],
+        "match_fg": [60, 60, 255],
         "bg": [34, 34, 34],
         "selected_fg": [255, 255, 255],
-        "selected_match_fg": [119, 255, 255],
-        "selected_bg": [86, 86, 86]
+        "selected_match_fg": [60, 60, 255],
+        "selected_bg": [200, 200, 200]
     },
     {
         "class": "table_row",
@@ -899,13 +892,13 @@
         "layer1.tint": [43, 43, 43],
         "layer1.opacity": 1.0,
         "layer1.draw_center": false,
-        "layer1.inner_margin": [1, 0, 0, 0]
+        "layer1.inner_margin": [2, 0, 2, 0]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0,
-        "layer1.tint": [119, 255, 255]
+        "layer1.tint": [60, 60, 255]
     },
 
     // #######################################################
@@ -930,7 +923,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -944,7 +937,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -958,7 +951,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -972,7 +965,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -987,7 +980,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -1002,7 +995,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -1017,7 +1010,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -1032,7 +1025,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -1046,7 +1039,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     },
     {
@@ -1060,7 +1053,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [119, 255, 255],
+        "layer0.tint": [60, 60, 255],
         "layer0.opacity": 1.0,
     }
 ]
