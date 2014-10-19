@@ -4,7 +4,7 @@ bluSch is a minimal, aesthetically pleasing theme for Sublime Text with fancy-sc
 
 ![bluSch Theme clean][3]
 
-* **Font**: Consolas 9
+* **Font**: monofur
 * **Color Scheme**: bluSch (included in this theme)
 * **Icons in Gutter**: [Git Gutter Plugin][7]
 
@@ -56,19 +56,35 @@ If you're looking to customize the theme, I suggest installation via the Git met
 
 This is just my preference, but I very much prefer a clean environment. This theme, though made with everybody in mind, must have some bias towards my preferences. So, if you like what's in the screenshot, here are some of the more important preferences I use. Add them to your `Preferences: Settings - User`:
 
-    "color_scheme": "Packages/Theme - bluSch/bluSch.tmTheme",
-    "theme": "bluSch.sublime-theme",
-    "overlay_scroll_bars": "enabled",
-    "show_tab_close_buttons": false,
-    "draw_minimap_border": false,
-    "enable_tab_scrolling": false,
-    "fade_fold_buttons": false,
-    "font_face": "Consolas",
-    "highlight_line": true,
-    "font_size": 9,
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
     "caret_style": "phase",
+    "color_scheme": "Packages/Theme - bluSch/bluSch.tmTheme",
+    "draw_minimap_border": false,
+    "fade_fold_buttons": false,
+    "font_face": "monofur",
+    "font_size": 17,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "indent_guide_options":
+    [
+        "draw_active",
+        "draw_normal"
+    ],
+    "overlay_scroll_bars": "enabled",
+    "rulers":
+    [
+        100
+    ],
+    "theme": "bluSch.sublime-theme",
+    "show_tab_close_buttons": false,
 
-If you don't like the colored border indicators, you can edit the theme and basically change all `layer1.opacity` values to 0. Or istead of `"theme": "bluSch.sublime-theme",`, use `"theme": "bluSch-NoBorder.sublime-theme",` in your User Settings.
+If you don't like the colored border indicators, you can edit the theme and basically change all `layer1.opacity` values to 0.
+
+If you would prefer additional indicators in the sidebar, as in:
+![bluSch Theme clean][8]
+
+You can add the lines I removed, starting at 601, in this [commit](https://github.com/schlueter/Sublime-Theme-bluSch/commit/08fe4e4c21dba750fbff1f7a73484d6942b8fe9b#diff-7dfc620f428119897cb8eb8a996a7546L601-637). The required icons were never removed.
 
 ## Credits
 
@@ -96,4 +112,4 @@ The following details apply to the Creative Commons license "author specified" c
 [4]: https://sublime.wbond.net/installation
 [6]: http://creativecommons.org/licenses/by-sa/3.0/
 [7]: https://github.com/jisaacks/GitGutter
-[8]: https://raw.githubusercontent.com/lytedev/lyte-theme/master/screenshots/lyte-theme-small-clean-file-folder-icons-noborder.png
+[8]: https://raw.githubusercontent.com/schlueter/Sublime-Theme-bluSch/cfd41827b680a27f32cd74797ba2a256640bacf8/screenshots/Example-tabs-with-theme-file-open.png
