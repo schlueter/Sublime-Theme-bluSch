@@ -89,7 +89,7 @@
         "max_margin_trim": 0,
 
         // Tab background
-        "layer0.tint": [25, 25, 25],
+        "layer0.tint": [43, 43, 43],
         "layer0.opacity": 1.0,
 
         // Tab border
@@ -109,7 +109,7 @@
         // Active tab state
         "class": "tab_control",
         "attributes": ["selected"],
-        "layer0.tint": [34, 34, 34],
+        "layer0.tint": [10, 10, 10],
     },
     {
         // Hover tab state
