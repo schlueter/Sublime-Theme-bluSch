@@ -116,14 +116,14 @@
         "class": "tab_control",
         "attributes": ["hover"],
         "layer0.tint": [43, 43, 43],
-        "layer1.tint": [43, 200, 43]
+        "layer1.tint": [0, 80, 150]
     },
     {
         // Modified tab state
         // "settings": ["highlight_modified_tabs"],
         "class": "tab_control",
         "attributes": ["dirty"],
-        "layer1.tint": [180, 20, 54]
+        "layer1.tint": [150, 50, 0]
     },
 
     // Tab labels
@@ -192,7 +192,7 @@
         // Tab close press action
         "class": "tab_close_button",
         "attributes": ["hover"],
-        "layer0.tint": [60, 60, 255, 255]
+        "layer0.tint": [0, 80, 150, 255]
     },
     {
         // Tab close press action
@@ -296,16 +296,16 @@
         // Scrollbar puck (overlay, vertical)
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [60, 60, 255],
-        "content_margin": [1, 0]
+        "layer0.tint": [0, 80, 150],
+        "content_margin": [2, 0]
     },
     {
         // Scrollbar background (overlay, horizontal)
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.tint": [60, 60, 255],
-        "content_margin": [0, 1]
+        "layer0.tint": [0, 80, 150],
+        "content_margin": [0, 2]
     },
     {
         "class": "puck_control",
@@ -318,7 +318,7 @@
         "attributes": ["horizontal", "dark"],
     },
 
-    // #######################################################
+    // ####################################################### aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     // # EMPTY WINDOW BACKGROUND
     // #######################################################
     {
@@ -474,7 +474,7 @@
 
         // Border
         "layer1.opacity": 1.0,
-        "layer1.inner_margin": [0, 0, 2, 0],
+        "layer1.inner_margin": [0, 0, 3, 0],
         "layer1.draw_center": false,
         "layer1.tint": [25, 25, 25],
         /*
@@ -496,7 +496,7 @@
         "class": "tree_row",
         "attributes": ["hover"],
         "layer0.tint": [43, 43, 43],
-        "layer1.tint": [43, 200, 43]
+        "layer1.tint": [0, 80, 150]
     },
     {
         // Sidebar row dirty
@@ -620,19 +620,19 @@
     },
     {
         "class": "icon_folder",
-        "content_margin": [8, 8],
-        "layer0.texture": "Theme - bluSch/icons/folder.png",
-        "layer0.opacity": 0.3
+        "content_margin": [12, 8],
+        "layer0.texture": "Theme - bluSch/icons/group-closed.png",
+        "layer0.opacity": 0.5
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 0.6
+        "layer0.opacity": 0.8
     },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - bluSch/icons/folder_open.png",
+        "layer0.texture": "Theme - bluSch/icons/group-open.png",
     },
     {
         "class": "icon_folder_dup",
@@ -766,25 +766,25 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.tint": [34, 34, 34],
-        "layer1.tint": [60, 60, 255]
+        "layer1.tint": [0, 80, 150]
     },
     {
         // Quick panel row label
         "class": "quick_panel_label",
         "fg": [200, 200, 200, 255],
-        "match_fg": [60, 60, 255, 255],
+        "match_fg": [0, 80, 150, 255],
         "bg": [34, 34, 34, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [60, 60, 255, 255],
+        "selected_match_fg": [0, 80, 150, 255],
         "selected_bg": [134, 134, 134, 255]
     },
     {
         // Quick panel row path label
         "class": "quick_panel_path_label",
         "fg": [160, 160, 160, 255],
-        "match_fg": [60, 60, 255, 255],
+        "match_fg": [0, 80, 150, 255],
         "selected_fg": [255, 255, 255, 255],
-        "selected_match_fg": [60, 60, 255, 255],
+        "selected_match_fg": [0, 80, 150, 255],
         "bg": [41, 41, 41, 255],
         "selected_bg": [24, 24, 255, 255]
     },
@@ -813,7 +813,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.tint": [34, 34, 34],
-        "layer1.tint": [60, 60, 255]
+        "layer1.tint": [0, 80, 150]
     },
 
     // #######################################################
@@ -840,10 +840,10 @@
     {
         "class": "auto_complete_label",
         "fg": [200, 200, 200],
-        "match_fg": [60, 60, 255],
+        "match_fg": [0, 80, 150],
         "bg": [34, 34, 34],
         "selected_fg": [255, 255, 255],
-        "selected_match_fg": [60, 60, 255],
+        "selected_match_fg": [0, 80, 150],
         "selected_bg": [200, 200, 200]
     },
     {
@@ -860,7 +860,7 @@
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0,
-        "layer1.tint": [60, 60, 255]
+        "layer1.tint": [0, 80, 150]
     },
 
     // #######################################################
@@ -885,7 +885,7 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -899,7 +899,7 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -913,7 +913,7 @@
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -927,7 +927,7 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -942,7 +942,7 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -957,7 +957,7 @@
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -972,7 +972,7 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -987,7 +987,7 @@
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -1001,7 +1001,7 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     },
     {
@@ -1015,7 +1015,7 @@
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [60, 60, 255],
+        "layer0.tint": [0, 80, 150],
         "layer0.opacity": 1.0,
     }
 ]
