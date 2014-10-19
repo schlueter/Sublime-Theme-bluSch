@@ -54,7 +54,6 @@
         "attributes": ["hover"],
         "layer0.opacity": 0.6
     },
-
     {
         // Scroll tabs right button
         "class": "scroll_tabs_right_button",
@@ -460,11 +459,10 @@
         "layer1.inner_margin": [0, 0, 1, 0],
         "layer1.opacity": 1.0,
         "layer1.draw_center": false,
-        "row_padding": [8, 1],
-        "indent": 12,
-        "indent_offset": 12,
+        "row_padding": [1, 1],
+        "indent": 14,
+        "indent_offset": 3,
         "indent_top_level": false,
-        "dark_content": true
     },
     {
         // Sidebar rows
@@ -596,43 +594,6 @@
         "class": "close_button",
         "attributes": ["pressed"],
         "layer0.opacity": 1
-    },
-
-    // Sidebar FOLDERS closed
-    {
-        "class": "disclosure_button_control",
-        "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - bluSch/icons/gui/arrow_right.png",
-        "layer0.opacity": 0.3,
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 0.6
-    },
-    {
-        "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.opacity": 0.8
-    },
-
-    // Sidebar FOLDERS open
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - bluSch/icons/gui/arrow_down.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 0.6
-    },
-    {
-        "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.opacity": 0.8
     },
 
     // Folder/File Icons
