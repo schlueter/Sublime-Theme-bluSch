@@ -1,24 +1,24 @@
-# Lyte Theme
+# bluSch Theme
 
-Lyte is a minimal, aesthetically pleasing theme for Sublime Text with fancy-schmancy border status indicators. Don't believe me? Check it out.
+bluSch is a minimal, aesthetically pleasing theme for Sublime Text with fancy-schmancy border status indicators. Don't believe me? Check it out.
 
-![Lyte Theme clean][3]
+![bluSch Theme clean][3]
 
 Maybe you don't like fancy-schmancy border status indicators, but you like flat, dark minimalism.
 
-![Lyte Theme NoBorder][8]
+![bluSch Theme NoBorder][8]
 
 * **Font**: Consolas 9
-* **Color Scheme**: Lyte (included in this theme)
+* **Color Scheme**: bluSch (included in this theme)
 * **Icons in Gutter**: [Git Gutter Plugin][7]
 
-Lyte also contains a simple Python script for constructing .tmTheme syntax highlighting files. Hopefully soon it will also contain functionality for constructing .sublime-theme Sublime theme files!
+bluSch also contains a simple Python script for constructing .tmTheme syntax highlighting files. Hopefully soon it will also contain functionality for constructing .sublime-theme Sublime theme files!
 
 ## Installation
 
 ### Package Controls
 
-If you have the Package Control plugin installed, you can install this theme via the `Package Control: Install Package` command. Then look for the `Theme - Lyte` listing and install it!
+If you have the Package Control plugin installed, you can install this theme via the `Package Control: Install Package` command. Then look for the `Theme - bluSch` listing and install it!
 
 If you *don't* have the Package Control plugin, well, you just should. [Here are the installation instructions.][4]
 
@@ -28,7 +28,7 @@ If you'd like easier access to the code, to keep up to date faster, or customize
 
 Open your Packages directory with the command `Preferences: Browse Packages`. While in the Packages directory, you just need to clone the repo as follows:
 
-    git clone https://github.com/lytedev/lyte-theme/ "Theme - Lyte"
+    git clone https://github.com/lytedev/bluSch-theme/ "Theme - bluSch"
 
 ## Usage
 
@@ -36,11 +36,11 @@ Open your Packages directory with the command `Preferences: Browse Packages`. Wh
 
 Add this to your `Preferences: Settings - User` file:
 
-    "theme": "Lyte.sublime-theme",
+    "theme": "bluSch.sublime-theme",
 
 Or, for no colorful indicator borders,
 
-    "theme": "Lyte-NoBorder.sublime-theme",
+    "theme": "bluSch-NoBorder.sublime-theme",
 
 You will need to restart Sublime for all changes to take effect.
 
@@ -48,20 +48,20 @@ You will need to restart Sublime for all changes to take effect.
 
 Add this to your `Preferences: Settings - User` file:
 
-    "color_scheme": "Packages/Theme - Lyte/Lyte.tmTheme",
+    "color_scheme": "Packages/Theme - bluSch/bluSch.tmTheme",
 
 But you probably already have syntax highlighting you prefer. =) Hopefully this theme fits it well! If not, I suggest changing your syntax highlight background to `#111111`. Should make a world of difference.
 
 ### Customization
 
-If you're looking to customize the theme, I suggest installation via the Git method. Once you have access to the files, check out `Lyte.sublime-theme` and two python scripts in the `src` directory, `lyte.py` and `theme_builder.py`.
+If you're looking to customize the theme, I suggest installation via the Git method. Once you have access to the files, check out `bluSch.sublime-theme` and two python scripts in the `src` directory, `bluSch.py` and `theme_builder.py`.
 
 ### Recommendations
 
 This is just my preference, but I very much prefer a clean environment. This theme, though made with everybody in mind, must have some bias towards my preferences. So, if you like what's in the screenshot, here are some of the more important preferences I use. Add them to your `Preferences: Settings - User`:
 
-    "color_scheme": "Packages/Theme - Lyte/Lyte.tmTheme",
-    "theme": "Lyte.sublime-theme",
+    "color_scheme": "Packages/Theme - bluSch/bluSch.tmTheme",
+    "theme": "bluSch.sublime-theme",
     "overlay_scroll_bars": "enabled",
     "show_tab_close_buttons": false,
     "draw_minimap_border": false,
@@ -72,12 +72,13 @@ This is just my preference, but I very much prefer a clean environment. This the
     "font_size": 9,
     "caret_style": "phase",
 
-If you don't like the colored border indicators, you can edit the theme and basically change all `layer1.opacity` values to 0. Or istead of `"theme": "Lyte.sublime-theme",`, use `"theme": "Lyte-NoBorder.sublime-theme",` in your User Settings.
+If you don't like the colored border indicators, you can edit the theme and basically change all `layer1.opacity` values to 0. Or istead of `"theme": "bluSch.sublime-theme",`, use `"theme": "bluSch-NoBorder.sublime-theme",` in your User Settings.
 
 ## Credits
 
-* Inspired by the [Nexus theme][1] and the [Devastate theme][2]
-* Icons are shameless edits of the icons in the [Nexus theme][1]
+* Based on the [Lyte theme](https://github.com/Lytedev/Lyte-sublime)
+* Inspired by the [DefaultPlus theme](https://github.com/iGARET/sublimetext-defaultplus-theme)
+
 
 ## Changelog
 

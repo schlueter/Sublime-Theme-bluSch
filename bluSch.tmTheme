@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>Lyte</string>
-    <!--
+    <string>bluSch</string>
 
-    Shamelessly ripped from Monokai Bright included with Sublime.
-
-    -->
     <key>settings</key>
     <array>
         <dict>
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#111111</string>
+                <string>#110000</string>
                 <key>caret</key>
                 <string>#f8f8f8</string>
                 <key>foreground</key>
@@ -25,13 +21,13 @@
                 <key>lineHighlight</key>
                 <string>#1d1d1d</string>
                 <key>selection</key>
-                <string>#222222</string>
+                <string>#693B0A</string>
                 <key>selectionBorder</key>
-                <string>#333333</string>
+                <string>#6E6E6E</string>
                 <key>findHighlight</key>
                 <string>#333333</string>
                 <key>findHighlightForeground</key>
-                <string>#f8f8f8</string>
+                <string>#f800f8</string>
                 <key>activeGuide</key>
                 <string>#222222</string>
 
@@ -109,7 +105,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
             </dict>
         </dict>
         <dict>
@@ -131,7 +127,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#77aaff</string>
             </dict>
@@ -183,7 +179,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#aaff44</string>
             </dict>
@@ -209,7 +205,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#77aaff</string>
             </dict>
@@ -222,7 +218,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#aaff44</string>
             </dict>
@@ -235,7 +231,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#77ffff</string>
             </dict>
@@ -248,7 +244,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#77ffff</string>
             </dict>
@@ -274,7 +270,7 @@
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
             </dict>
         </dict>
         <dict>
@@ -287,7 +283,7 @@
                 <key>background</key>
                 <string>#77aaff</string>
                 <key>fontStyle</key>
-                <string></string>
+                <string />
                 <key>foreground</key>
                 <string>#f8f8f8</string>
             </dict>
@@ -381,7 +377,37 @@
             </dict>
         </dict>
 
-    </array>
+    <dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict></array>
     <key>uuid</key>
     <string>D8D5E82E-3D5B-46B5-B38E-8C841C21347E</string>
 </dict>
