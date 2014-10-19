@@ -92,7 +92,7 @@ The following details apply to the Creative Commons license "author specified" c
 
 [1]: https://github.com/EleazarCrusader/nexus-theme
 [2]: https://github.com/vlakarados/devastate
-[3]: https://raw.githubusercontent.com/lytedev/lyte-theme/master/screenshots/lyte-theme-small-clean-file-folder-icons.png
+[3]: https://raw.githubusercontent.com/schlueter/Sublime-Theme-bluSch/bluSch/screenshots/Example-tabs-with-theme-file-open.png
 [4]: https://sublime.wbond.net/installation
 [6]: http://creativecommons.org/licenses/by-sa/3.0/
 [7]: https://github.com/jisaacks/GitGutter
