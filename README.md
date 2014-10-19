@@ -4,10 +4,6 @@ bluSch is a minimal, aesthetically pleasing theme for Sublime Text with fancy-sc
 
 ![bluSch Theme clean][3]
 
-Maybe you don't like fancy-schmancy border status indicators, but you like flat, dark minimalism.
-
-![bluSch Theme NoBorder][8]
-
 * **Font**: Consolas 9
 * **Color Scheme**: bluSch (included in this theme)
 * **Icons in Gutter**: [Git Gutter Plugin][7]
@@ -54,7 +50,7 @@ But you probably already have syntax highlighting you prefer. =) Hopefully this 
 
 ### Customization
 
-If you're looking to customize the theme, I suggest installation via the Git method. Once you have access to the files, check out `bluSch.sublime-theme` and two python scripts in the `src` directory, `bluSch.py` and `theme_builder.py`.
+If you're looking to customize the theme, I suggest installation via the Git method. Once you have access to the files, check out `bluSch.sublime-theme` and two python scripts in the `src` directory, `lyte.py` and `theme_builder.py`.
 
 ### Recommendations
 

@@ -2,7 +2,7 @@
     /*
 
     bluSch theme for Sublime Text
-    https://github.com/schlueter/Sublime: Theme - bluSch
+    https://github.com/schlueter/Sublime-Theme-bluSch.git
 
     Based on the Lyte theme (https://github.com/Lytedev/Lyte-sublime)
     Inspired by the DefaultPlus theme (https://github.com/iGARET/sublimetext-defaultplus-theme)
@@ -503,7 +503,8 @@
     {
         // Sidebar row dirty
         "class": "tree_row",
-        "attributes": ["dirty"],
+        "attributes": ["hover", "dirty"],
+        "layer0.tint": [43, 43, 43],
         "layer1.tint": [180, 20, 54]
     },
     {
@@ -521,7 +522,7 @@
     {
         // Sidebar heading
         "class": "sidebar_heading",
-        "color": [60, 60, 255],
+        "color": [120, 120, 120],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [0, 1],
         "font.size": 10
