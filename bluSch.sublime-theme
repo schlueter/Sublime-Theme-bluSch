@@ -94,7 +94,7 @@
 
         // Tab border
         "layer1.tint": [10, 10, 10],
-        "layer1.inner_margin": [1, 1, 1, 1],
+        "layer1.inner_margin": [1, 1, 1, 2],
         "layer1.opacity": 1.0,
         "layer1.draw_center": false,
 
