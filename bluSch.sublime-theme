@@ -93,8 +93,8 @@
         "layer0.opacity": 1.0,
 
         // Tab border
-        "layer1.tint": [34, 34, 34],
-        "layer1.inner_margin": [0, 0, 0, 2],
+        "layer1.tint": [10, 10, 10],
+        "layer1.inner_margin": [1, 1, 1, 1],
         "layer1.opacity": 1.0,
         "layer1.draw_center": false,
 
